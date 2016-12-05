@@ -1,0 +1,573 @@
+@import url("bootstrap.min.css");
+.form-background
+{
+    /*    background-color: #E4F2D9;*/
+}
+.table td {
+    text-align: center;   
+}
+.service {
+    padding-left: 10px!important; 
+    text-align: left!important; 
+}
+.table th {
+    text-align: center;   
+}
+
+.table_content > td{
+    border: 1px solid #0072C6!important;
+    background-color: #fff!important;
+}
+.cursor_pointer{
+    cursor: pointer;
+}
+.navbar-top {
+    background: #ffffff url('../../images/bg2.png') top repeat-x;
+    min-height:80px;
+    border:0px;
+}
+.header_background_color{
+    background-color: #3A5795;
+    min-height: 80px;
+}
+.logo{
+    height:100px;
+    width:100%;
+}
+.logo-text{
+    color: #ffffff;
+    font-size: 30px;
+}
+.login-text{
+    color: #ffffff;
+    font-size: 14px;
+}
+.top-bottom-padding
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.input-width-table
+{
+    width:100%;
+}
+/******************************   Slide show Home page  *********************************************************/
+#slider2,
+#slider3 {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    margin: 0 auto;
+}
+.callbacks_container {
+    margin-bottom: 50px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.callbacks {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.callbacks li {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.callbacks img {
+    display: block;
+    position: relative;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    border: 0;
+}
+
+.callbacks .caption {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    font-size: 20px;
+    text-shadow: none;
+    color: #fff;
+    background: #000;
+    background: rgba(0,0,0, .8);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px 20px;
+    margin: 0;
+    max-width: none;
+}
+
+.callbacks_nav {
+    position: absolute;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    top: 52%;
+    left: 0;
+    opacity: 0.7;
+    z-index: 3;
+    text-indent: -9999px;
+    overflow: hidden;
+    text-decoration: none;
+    height: 61px;
+    width: 38px;
+    background: transparent url("../../slide/themes.gif") no-repeat left top;
+    margin-top: -45px;
+}
+
+.callbacks_nav:active {
+    opacity: 1.0;
+}
+
+.callbacks_nav.next {
+    left: auto;
+    background-position: right top;
+    right: 0;
+}
+#wrapper1 .callbacks_container{
+    width: 48%;
+    float: left;
+    margin: 0 1%;
+    border: 1px solid #d5d5d5;
+    -webkit-border: 1px solid #d5d5d5;
+    -moz-border: 1px solid #d5d5d5;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 5px;
+    box-shadow: 1px 1px 8px #888;
+    -webkit-box-shadow: 1px 1px 8px #888;
+    -moz-box-shadow: 1px 1px 8px #888;
+}
+#wrapper1 img{
+    width: 25%;
+    float: left;
+    margin-left: 50px;
+    height:150px;
+}
+#wrapper1 p{
+    position: relative;
+    width: 52%;
+    float: right;
+    margin-right: 39px;
+}
+#wrapper,
+#wrapper img,
+#wrapper .callbacks{
+    height:350px !important;
+}
+#wrapper h2,
+#wrapper1 h2,
+#wrapper2 h2{
+    color:#000 !important;
+    font-size:24.5px !important;
+}
+#wrapper1 .callbacks,
+#wrapper2 .callbacks,
+#wrapper1 .callbacks ul,
+#wrapper1 .callbacks ul li{
+    height:150px;
+}
+#wrapper1 .callbacks .caption,
+#wrapper2 .callbacks .caption{
+    display: block;
+    position: relative;
+    z-index: 2;
+    font-size: 14px;
+    text-shadow: none;
+    color: #000;
+    background: transparent;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 3px 50px;
+    margin: 0;
+    max-width: none;
+    margin-right: 46px;
+    width: 46%;
+}
+#wrapper1 .callbacks_nav,
+#wrapper2 .callbacks_nav{
+    top:55%;
+}
+@media screen and (max-width: 600px) {
+    h1 {
+        font: 24px/50px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .callbacks_nav {
+        top: 47%;
+    }
+}
+.custom-col{color:#FCEEFD; }
+.custom-col:hover{background-color:#7FCB8E; }
+.custom-col:active{background-color:#E5D92B; }
+
+
+/*-----------------------------------------Login page (Redoy) -------------------------------------------*/
+
+.header_background{
+    background-color:#3A5795;
+    padding-top: 10px;
+    line-height: 11px;
+}
+.left_text_style, .right_text_style{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.footer_style{ 
+    background-color: #ffffff; 
+    width: 100%;
+    padding: 10px 0;
+}
+.user_login_style{ 
+    color: white; 
+    font-family:verdana; 
+    font-size:11px; 
+}
+.user_password_style{ 
+    color: white; 
+    font-size:14px; 
+    vertical-align: top;
+    border-left: -35px;
+
+}
+.message_style{ 
+    color: red; 
+    font-size:14px; 
+    vertical-align: top!important;
+}
+.user_password_style a { 
+    color: white; 
+    font-size:14px; 
+} 
+.text_padding_top{
+    padding-top: 4px!important;
+    vertical-align: top!important;
+}
+.text_padding_top a{
+    padding-top: 5px!important;
+}
+input[type="radio"], input[type="checkbox"] {
+    margin: 0;
+}
+.login_button_style {
+    background-color: #607cad;
+    border: 1px solid #5d6477;
+    color: white;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: -28px;
+    text-align: center;
+    width: 48px;
+    font-weight: bold;
+}
+.padding_before_image{
+    padding: 25px 0!important;
+}
+
+
+@media all and (max-width: 991px){
+    .left_h1_style{
+        padding-left: 0!important;
+    }
+    .padding_image{
+        padding: 0!important;
+    }
+    .header_background{
+        padding-top: 0!important;
+    }
+    .login_button_style {
+        margin-left: 0!important;
+    }
+    input[type="radio"], input[type="checkbox"] {
+        margin: 4px!important;
+    }
+}
+
+.btn_success_staff_style{
+    width: 124px;  
+}
+.btn_success_manager_style{
+    width: 111px;  
+}
+.btn_success_admin_style{
+    width: 92px;  
+}
+
+/*******************************************************************************************/
+
+.btn_custom_button{
+
+    background-color: #0072C6; 
+    border: 1px solid #0072C6;
+    color:#fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 4px!important;
+}
+.btn_btn_custom_button{
+
+    background-color: #0072C6; 
+    border: 1px solid #0072C6;
+    color:#fff;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 4px!important;
+}
+
+.table_row_style{
+    color: #843534;
+    font-weight: bold; 
+    font-size: 14px;
+}
+.admin_header_text_style{
+    font-size: 20px!important;
+    font-weight: bold!important;
+    color:#fff!important;
+    font-family: verdana!important;
+}
+.admin_header_text_style:hover{
+    text-decoration: none!important;
+    font-size: 20px!important;
+    font-weight: bold!important;
+    color:#fff!important;
+    font-family: verdana!important;
+}
+
+
+
+
+
+
+/******************************  deshboard   *********************************************************/
+
+/*
+    Created on : Feb 10, 2016
+    Author     : A.K.M. NAZMUL ISLAM
+*/
+
+.dashBoardBackground{
+    background-color: #C7D9EB;
+    font-size: 9px;
+    color: #333;
+    padding: 2px;
+}
+.dashBoardHeaderBackground{
+    background-color: #4F7FA6;
+}
+.dashBoardHeaderLeftContent, .dashBoardHeaderRightContent{
+    color: #fff;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.dashBoardHeaderLeftContent{
+    float: left;
+}
+.dashBoardHeaderRightContent{
+    float: right;
+}
+
+.tableHeaderTitle{
+    background-color: lavender; 
+    font-weight: bold; 
+    text-align: center;
+}
+.tableHeaderContentTitle{
+    background-color: #DFDBF4; 
+    font-weight: bold; 
+}
+.padding_5px{
+    padding: 4px 0 4px 4px;  
+}
+.padding_2px{
+    padding: 2px;  
+}
+.borderFull{
+    border: 1px solid #fff;
+}
+.borderWithoutTop{
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.borderRight{
+    border-right: 1px solid #fff;
+}
+.borderHeight{
+    height: 92px;
+}
+.textBold{
+    font-weight: bold;
+}
+
+.textSize{
+    font-size: 9px;
+}
+
+.textAlignCenter{
+    text-align: center;
+}
+
+.whiteBackground{
+    background-color: #fff;
+}
+
+.borderBottom{
+    border-bottom: 1px solid lightgray;
+}
+
+.customNav > li > a {
+    padding: 5px 8px!important;
+}
+.padding_top_10px{
+    padding-top: 10px;
+}
+.padding_top_5px{
+    padding-top: 5px;
+}
+.slice text {
+    font-size: 12pt;
+    fill: #ffffff;
+}
+
+
+.chart div {
+    background-color: #3AB9B2;
+    padding: 3px;
+    margin: 1px;
+    height: 18px;
+}
+.chart div span{
+    font: 10px sans-serif;
+    float: right;
+    color: #000000;
+    position: absolute;
+}
+.left_menu{
+    background-color: #F3F3F3;
+}
+@media print
+{    
+    .sidebar,.ezttle, .form-inline, #footer
+    {
+        display: none !important;
+    }
+    .onprint { display: block !important; }
+
+    .report {margin:0px;}
+}
+.sidebar {
+    width: 180px;
+    float: left;
+    background-color: #F3F3F3;
+}
+@media (max-width: 991px) {
+    .maxWindow{
+        display: none;
+    }
+    .paglet{
+        background-color: white;
+        padding: 5px;
+        margin-bottom: 1px;
+        box-shadow: 0 0 1px #bbb;
+        border-radius: 3.5px;
+
+    }
+}
+@media (min-width: 992px) {
+    .marginLeft{
+        margin-left: -25px;  
+    }
+    .miniWindow{
+        display: none;
+    }
+    .maxWindow{
+    }
+    .paglet{
+        background-color: white;
+        padding: 15px;
+        margin-bottom: 1px;
+        box-shadow: 0 0 1px #bbb;
+        border-radius: 3.5px;
+        overflow-y: auto;
+        height: 360px;
+        max-width: 313px;
+    }
+}
+
+.customInputMargin{
+    margin-bottom: -8px;
+}
+.customInput{
+    height: 24px!important;
+    padding: 5px!important;
+    font-size: 11px!important;
+    width: 100%!important;
+}
+
+.custom_button{
+    background-color:#0072C6; 
+    border: 1px solid #0072C6;
+    color:#fff;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    width: 100%!important;
+    margin-bottom: 5px!important;
+    border-radius: 4px!important;
+    border-radius: 4px!important;
+    line-height: normal!important;
+}
+
+.button-custom{
+    background-color:#0072C6; 
+    border: 1px solid #0072C6;
+    color:#fff;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 5px 30px !important;
+    border-radius: 4px!important;
+}
+
+/***************************************** logo & company name configure **************************************************/
+.top-bottom-padding
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.logo_upload_background{
+    background-color: #7ebdea; 
+    padding: 5px; 
+    margin: 0px; 
+    border-radius: 4px;
+}
+
+.custom_logo_change_button,.custom_logo_change_button:hover,.custom_logo_change_button:visited,.custom_logo_change_button:focus{
+    background-color: #0072C6!important; 
+    border: 1px solid #0072C6;
+}
+
+.logo_upload_icons{
+    background-color: #7EBDEA;
+}
+
+.hidden_class{
+    display: none;
+}
